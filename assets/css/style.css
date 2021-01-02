@@ -1,0 +1,35 @@
+:root {
+  --gray-dark: #71869d;
+  --orange: #fd7e14;
+  --white: #fff;
+  --gray: #8c98a4;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.d-block h1 {
+  color: #ffa500 !important;
+}
+.space-2 h2,
+.card_subhead h4,
+.card-footer a,
+.features {
+  color: orange !important;
+}
+.h4_head h4 {
+  color: grey !important;
+}
+.button a {
+  background-color: orange;
+  border: none;
+}
+.button a:hover {
+  background-color: rgb(253, 168, 10);
+}
+.d-block h1,
+.space-2 h2,
+.card_subhead h4 {
+  font-family: "Quattrocento", serif;
+}
