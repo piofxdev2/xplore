@@ -11,3 +11,15 @@ body {
   background: #377dff;
   transition: background 1s smooth;
 }
+/* Change image from black and white to original colour on hover */
+.color_img {
+  cursor: pointer;
+  filter: grayscale(100%);
+  margin: 0.5rem 0rem;
+}
+
+.color_img:hover {
+  filter: grayscale(0%);
+  transition: 0.5s ease;
+  margin-top: 0rem;
+}
