@@ -1,16 +1,35 @@
 body {
   overflow-x: hidden;
 }
+/* oet buttons */
 .oet_start_now1 {
+  padding: 12px;
   background: transparent;
-  border: 1px solid black;
+  border: 2px solid black;
+  letter-spacing: 1px;
   color: black;
 }
 .oet_start_now1:hover {
   color: #fff;
-  background: #377dff;
-  transition: background 1s smooth;
+  background: #000;
+  border-radius: 15px;
+  transition: 0.3s ease-in;
 }
+.oet_start_now2 {
+  padding: 12px;
+  background: transparent;
+  border: 2px solid #fff;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.oet_start_now2:hover {
+  color: #fff;
+  background: #000;
+  border-radius: 12px;
+  transition: 0.3s ease-in;
+  border: #000;
+}
+
 /* Change image from black and white to original colour on hover */
 .color_img {
   cursor: pointer;
@@ -26,16 +45,15 @@ body {
 /* Smaller Btn */
 .signup_btn {
   padding: 0.5rem 1rem;
-  border: 2px solid #000;
+  border: 2px solid #e24d4b;
   border-radius: 0.5rem;
-  background-color: transparent;
-  color: #000;
+  background-color: #e24d4b;
+  color: #fff;
 }
 
 .signup_btn:hover {
-  background-color: #377dff;
+  background-color: #fff;
+  border: 2px solid #e24d4b;
   transition: 0.5s ease;
-  border-radius: 1rem;
-  border: none;
-  color: #fff;
+  color: #e24d4b;
 }
