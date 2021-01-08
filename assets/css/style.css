@@ -27,7 +27,7 @@ body {
   background: #000;
   border-radius: 12px;
   transition: 0.3s ease-in;
-  border: #000;
+  border: 2px solid #000;
 }
 
 /* Change image from black and white to original colour on hover */

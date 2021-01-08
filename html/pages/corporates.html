@@ -28,132 +28,127 @@
 </head>
 
 <body>
- <!-- ========== HEADER ========== -->
- <header id="header" class="header bg-dark">
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="header nav-shadow bg-light position-fixed">
 
-  <div id="logoAndNav" class="container">
-    <!-- Nav -->
-    <nav class="js-mega-menu navbar navbar-expand-lg">
-      <!-- Logo -->
-      <a class="navbar-brand" href="/" aria-label="Front">
-        <img src="../../assets/img/piofx-white.png" alt="Logo">
-      </a>
-      <!-- End Logo -->
+    <div id="logoAndNav" class="container">
+      <!-- Nav -->
+      <nav class="js-mega-menu navbar navbar-expand-lg d-flex justify-content-between">
+        <!-- Logo -->
+        <a href="/" aria-label="Front">
+          <img src="../../assets/svg/logos/piofx.png" width="100" alt="Logo">
+        </a>
+        <!-- End Logo -->
 
-      <!-- Responsive Toggle Button -->
-      <button type="button" class="navbar-toggler btn btn-icon btn-ghost-light"
-              aria-label="Toggle navigation"
-              aria-expanded="false"
-              aria-controls="navBar"
-              data-toggle="collapse"
-              data-target="#navBar">
-        <span class="navbar-toggler-default">
-          <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-            <path fill="currentColor" d="M17.4,6.2H0.6C0.3,6.2,0,5.9,0,5.5V4.1c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,5.9,17.7,6.2,17.4,6.2z M17.4,14.1H0.6c-0.3,0-0.6-0.3-0.6-0.7V12c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,13.7,17.7,14.1,17.4,14.1z"/>
-          </svg>
-        </span>
-        <span class="navbar-toggler-toggled">
-          <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-            <path fill="currentColor" d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z"/>
-          </svg>
-        </span>
-      </button>
-      <!-- End Responsive Toggle Button -->
+        <div>
+          <a class="signup_btn ml-3 d-lg-none" href="#">Sign Up</a>
 
-      <!-- Navigation -->
-      <div id="navBar" class="collapse navbar-collapse">
-        <ul class="navbar-nav">
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn btn-icon btn-ghost-dark" aria-label="Toggle navigation"
+            aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+            <span class="navbar-toggler-default">
+              <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                  d="M17.4,6.2H0.6C0.3,6.2,0,5.9,0,5.5V4.1c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,5.9,17.7,6.2,17.4,6.2z M17.4,14.1H0.6c-0.3,0-0.6-0.3-0.6-0.7V12c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,13.7,17.7,14.1,17.4,14.1z" />
+              </svg>
+            </span>
+            <span class="navbar-toggler-toggled">
+              <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                  d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z" />
+              </svg>
+            </span>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </div>
+
+        <!-- Navigation -->
+        <div id="navBar" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
             <li class="navbar-nav-item mr-2">
-                <a href="index.html" class="nav-link">Home</a>
+              <a href="./index.html" class="nav-link">Home</a>
             </li>
-          <!-- Services -->
-          <li class="hs-has-sub-menu navbar-nav-item">
-            <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Services</a>
+            <!-- Services -->
+            <li class="hs-has-sub-menu navbar-nav-item">
+              <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;"
+                aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Services</a>
 
-            <!-- Services - Submenu -->
-            <div id="pagesSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 230px;">
-                <a href="./corporates.html" class="dropdown-item"><i class="fas fa-building nav-icon"></i> For Corporates</a>
+              <!-- Services - Submenu -->
+              <div id="pagesSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu"
+                style="min-width: 230px;">
+                <a href="./corporates.html" class="dropdown-item"><i class="fas fa-building nav-icon"></i> For
+                  Corporates</a>
                 <a href="./schools.html" class="dropdown-item"><i class="fas fa-school nav-icon"></i>For Schools</a>
-                <a href="./colleges.html" class="dropdown-item"><i class="fas fa-graduation-cap nav-icon"></i>For Colleges</a>
+                <a href="./colleges.html" class="dropdown-item"><i class="fas fa-graduation-cap nav-icon"></i>For
+                  Colleges</a>
                 <a href="#" class="dropdown-item"><i class="fas fa-university nav-icon"></i>For Institutes</a>
-            </div>
-            <!-- End Services - Submenu -->
+              </div>
+              <!-- End Services - Submenu -->
 
-            <!-- Blog - Submenu -->
-            <!-- <div id="blogSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 230px;">
-                <a class="dropdown-item" href="../blog/journal.html">Journal</a>
-                <a class="dropdown-item" href="../blog/metro.html">Metro</a>
-                <a class="dropdown-item" href="../blog/newsroom.html">Newsroom</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../blog/blog-profile.html">Blog Profile</a>
-                <a class="dropdown-item" href="../blog/single-article.html">Single Article</a>
-            </div> -->
-            <!-- End Submenu -->
+            </li>
+            <!-- End Services -->
 
-          </li>
-          <!-- End Services -->
+            <!-- Assessments -->
+            <li class="hs-has-mega-menu navbar-nav-item" data-hs-mega-menu-item-options='{
+                  "desktop": {
+                    "position": "right",
+                    "maxWidth": "900px"
+                  }
+                }'>
+              <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;"
+                aria-haspopup="true" aria-expanded="false">Assessments</a>
 
-          <!-- Assessments -->
-          <li class="hs-has-mega-menu navbar-nav-item"
-              data-hs-mega-menu-item-options='{
-                "desktop": {
-                  "position": "right",
-                  "maxWidth": "900px"
-                }
-              }'>
-            <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Assessments</a>
-
-            <!-- Assessments - Mega Menu -->
-            <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="demosMegaMenu">
-              <div class="row no-gutters">
-                <div class="col-lg-8">
-                  <div class="navbar-promo-card-deck">
-                    <!-- Promo Item -->
-                    <div class="navbar-promo-card navbar-promo-item">
-                      <a class="navbar-promo-link" href="oet.html">
-                        <div class="media align-items-center">
-                          <img class="navbar-promo-icon" src="../../assets/img/oet.png">
-                          <div class="media-body">
-                            <span class="navbar-promo-title">OET</span>
-                            <span class="navbar-promo-text">Learn On-demand demo</span>
+              <!-- Assessments - Mega Menu -->
+              <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="demosMegaMenu">
+                <div class="row no-gutters">
+                  <div class="col-lg-8">
+                    <div class="navbar-promo-card-deck">
+                      <!-- Promo Item -->
+                      <div class="navbar-promo-card navbar-promo-item">
+                        <a class="navbar-promo-link" href="oet.html">
+                          <div class="media align-items-center">
+                            <img class="navbar-promo-icon" src="../../assets/img/oet.png">
+                            <div class="media-body">
+                              <span class="navbar-promo-title">OET</span>
+                              <span class="navbar-promo-text">Learn On-demand demo</span>
+                            </div>
                           </div>
-                        </div>
-                      </a>
-                    </div>
-                    <!-- End Promo Item -->
+                        </a>
+                      </div>
+                      <!-- End Promo Item -->
 
-                    <!-- Promo Item -->
-                    <div class="navbar-promo-card navbar-promo-item">
-                      <a class="navbar-promo-link" href="det.html">
-                        <div class="media align-items-center">
-                          <img class="navbar-promo-icon" src="../../assets/img/det.png" alt="SVG">
-                          <div class="media-body">
-                            <span class="navbar-promo-title">DET</span>
-                            <span class="navbar-promo-text">Marketplace app demo</span>
+                      <!-- Promo Item -->
+                      <div class="navbar-promo-card navbar-promo-item">
+                        <a class="navbar-promo-link" href="det.html">
+                          <div class="media align-items-center">
+                            <img class="navbar-promo-icon" src="../../assets/img/det.png" alt="SVG">
+                            <div class="media-body">
+                              <span class="navbar-promo-title">DET</span>
+                              <span class="navbar-promo-text">Marketplace app demo</span>
+                            </div>
                           </div>
-                        </div>
-                      </a>
+                        </a>
+                      </div>
+                      <!-- End Promo Item -->
                     </div>
-                    <!-- End Promo Item -->
-                  </div>
 
-                  <div class="navbar-promo-card-deck">
-                    <!-- Promo Item -->
-                    <div class="navbar-promo-card navbar-promo-item">
-                      <a class="navbar-promo-link" href="#">
-                        <div class="media align-items-center">
-                          <!-- <img class="navbar-promo-icon" src="." alt="SVG"> -->
-                          <i class="fas fa-spell-check navbar-promo-icon nav-icon"></i>
-                          <div class="media-body">
-                            <span class="navbar-promo-title">English Assessment Test</span>
-                            <span class="navbar-promo-text">Help desk demo</span>
+                    <div class="navbar-promo-card-deck">
+                      <!-- Promo Item -->
+                      <div class="navbar-promo-card navbar-promo-item">
+                        <a class="navbar-promo-link" href="#">
+                          <div class="media align-items-center">
+                            <!-- <img class="navbar-promo-icon" src="." alt="SVG"> -->
+                            <i class="fas fa-spell-check navbar-promo-icon nav-icon"></i>
+                            <div class="media-body">
+                              <span class="navbar-promo-title">English Assessment Test</span>
+                              <span class="navbar-promo-text">Help desk demo</span>
+                            </div>
                           </div>
-                        </div>
-                      </a>
-                    </div>
-                    <!-- End Promo Item -->
+                        </a>
+                      </div>
+                      <!-- End Promo Item -->
 
-                    <!-- Promo Item -->
+                      <!-- Promo Item -->
                       <div class="navbar-promo-card navbar-promo-item">
                         <a class="navbar-promo-link" href="#">
                           <div class="media align-items-center">
@@ -167,45 +162,48 @@
                       </div>
                       <!-- End Promo Item -->
                     </div>
-                </div>
+                  </div>
 
-                <!-- Promo -->
-                <div class="col-lg-4 navbar-promo d-none d-lg-block">
-                  <a class="d-block navbar-promo-inner" href="#">
-                    <div class="position-relative">
-                      <img class="img-fluid rounded mb-3" src="../../assets/img/380x227/img1.jpg" alt="Image Description">
-                    </div>
-                  </a>
+                  <!-- Promo -->
+                  <div class="col-lg-4 navbar-promo d-none d-lg-block">
+                    <a class="d-block" href="#">
+                      <div class="position-relative">
+                        <img class="img-fluid rounded" src="../../assets/img/380x227/img1.jpg" alt="Image Description">
+                      </div>
+                    </a>
+                  </div>
+                  <!-- End Promo -->
                 </div>
-                <!-- End Promo -->
               </div>
-            </div>
-            <!-- End Assessments - Mega Menu -->
-          </li>
-          <!-- End Assessments -->
+              <!-- End Assessments - Mega Menu -->
+            </li>
+            <!-- End Assessments -->
 
-          <!-- About -->
-          <li class="navbar-nav-item mr-2">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <!-- End About -->
+            <!-- About -->
+            <li class="navbar-nav-item mr-2">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <!-- End About -->
 
-          <!-- Contact -->
-          <li class="navbar-nav-item">
-            <a href="#" class="nav-link">Contact Us</a>
-          </li>
-          <!-- End Contact -->
-
-        </ul>
-      </div>
-      <!-- End Navigation -->
-    </nav>
-    <!-- End Nav -->
-  </div>
-</div>
-</header>
-<!-- ========== END HEADER ========== -->
-
+            <!-- Contact -->
+            <li class="navbar-nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+            <!-- End Contact -->
+            <!-- Sign Up -->
+            <li class="navbar-nav-item ml-lg-3 mt-3 mt-lg-0 d-none d-lg-block">
+              <a class="signup_btn" href="#">Sign Up</a>
+            </li>
+            <!-- End Sign Up -->
+          </ul>
+        </div>
+        <!-- End Navigation -->
+      </nav>
+      <!-- End Nav -->
+    </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
   <!-- ========== MAIN ========== -->
   <main id="content" role="main">
     <!-- Hero Section -->
@@ -580,7 +578,9 @@
         <!-- Copyright -->
         <div class="w-md-75 text-lg-center mx-lg-auto">
           <p class="text-white opacity-sm small">&copy; Piofx. 2020 First Academy. All rights reserved.</p>
-          <p class="text-white opacity-sm small">When you visit or interact with our sites, services or tools, we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.</p>
+          <p class="text-white opacity-sm small">When you visit or interact with our sites, services or tools, we or our
+            authorised service providers may use cookies for storing information to help provide you with a better,
+            faster and safer experience and for marketing purposes.</p>
         </div>
         <!-- End Copyright -->
       </div>
@@ -588,7 +588,7 @@
   </footer>
   <!-- ========== END FOOTER ========== -->
 
- 
+
 
   <!-- Go to Top -->
   <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
