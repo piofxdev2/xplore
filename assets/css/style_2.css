@@ -1,0 +1,6 @@
+.search_card {
+  transition: 0.3s ease-in-out;
+}
+.search_card:hover {
+  transform: translateY(7px);
+}

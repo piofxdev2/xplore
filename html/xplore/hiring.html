@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Title -->
+  <title>Xplore</title>
+  <!-------google font-------->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Quattrocento&display=swap" rel="stylesheet">
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../assets/xploreImages/xploreLogo.png">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../../assets/css/theme.css">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="../../assets/css/changes.css">
+  <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+ 
+  </style>
+</head>
+
+<body>
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="header nav-shadow bg-white  position-fixed" >
+
+    <div id="logoAndNav" class="container">
+      <!-- Nav -->
+      <nav class="js-mega-menu navbar navbar-expand-lg d-flex justify-content-between">
+        <!-- Logo -->
+        <a href="/" aria-label="Front">
+          <img src="../../assets/xploreImages/xplore.png" width="100" alt="Logo">
+        </a>
+        <!-- End Logo -->
+
+        <div>
+          <a class="signup_btn ml-3 d-lg-none" href="#">Sign Up</a>
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn btn-icon btn-ghost-dark" aria-label="Toggle navigation"
+            aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+            <span class="navbar-toggler-default">
+              <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                  d="M17.4,6.2H0.6C0.3,6.2,0,5.9,0,5.5V4.1c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,5.9,17.7,6.2,17.4,6.2z M17.4,14.1H0.6c-0.3,0-0.6-0.3-0.6-0.7V12c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,13.7,17.7,14.1,17.4,14.1z" />
+              </svg>
+            </span>
+            <span class="navbar-toggler-toggled">
+              <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                  d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z" />
+              </svg>
+            </span>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </div>
+
+        <!-- Navigation -->
+        <div id="navBar" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="navbar-nav-item mr-2">
+              <a href="./index.html" class="nav-link">Products</a>
+            </li>
+            <!-- Services -->
+            <li class="hs-has-sub-menu navbar-nav-item">
+              <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;"
+                aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Training</a>
+
+              <!-- Services - Submenu -->
+              <div id="pagesSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu"
+                style="min-width: 230px;">
+                <a href="./corporates.html" class="dropdown-item"><i class="fas fa-building nav-icon"></i> For
+                  Corporates</a>
+                <a href="./schools.html" class="dropdown-item"><i class="fas fa-school nav-icon"></i>For Schools</a>
+                <a href="./colleges.html" class="dropdown-item"><i class="fas fa-graduation-cap nav-icon"></i>For
+                  Colleges</a>
+                <a href="#" class="dropdown-item"><i class="fas fa-university nav-icon"></i>For Institutes</a>
+              </div>
+              <!-- End Services - Submenu -->
+
+            </li>
+            <!-- End Services -->
+
+            <!-- Assessments -->
+            <li class="hs-has-mega-menu navbar-nav-item" data-hs-mega-menu-item-options='{
+                  "desktop": {
+                    "position": "right",
+                    "maxWidth": "900px"
+                  }
+                }'>
+              <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;"
+                aria-haspopup="true" aria-expanded="false">Events</a>
+
+              <!-- Assessments - Mega Menu -->
+              <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="demosMegaMenu">
+                <div class="row no-gutters">
+                  <div class="col-lg-8">
+                    <div class="navbar-promo-card-deck">
+                      <!-- Promo Item -->
+                      <div class="navbar-promo-card navbar-promo-item">
+                        <a class="navbar-promo-link" href="oet.html">
+                          <div class="media align-items-center">
+                            <img class="navbar-promo-icon" src="../../assets/img/oet.png">
+                            <div class="media-body">
+                              <span class="navbar-promo-title">OET</span>
+                              <span class="navbar-promo-text">Learn On-demand demo</span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- End Promo Item -->
+
+                      <!-- Promo Item -->
+                      <div class="navbar-promo-card navbar-promo-item">
+                        <a class="navbar-promo-link" href="det.html">
+                          <div class="media align-items-center">
+                            <img class="navbar-promo-icon" src="../../assets/img/det.png" alt="SVG">
+                            <div class="media-body">
+                              <span class="navbar-promo-title">DET</span>
+                              <span class="navbar-promo-text">Marketplace app demo</span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- End Promo Item -->
+                    </div>
+
+                    <div class="navbar-promo-card-deck">
+                      <!-- Promo Item -->
+                      <div class="navbar-promo-card navbar-promo-item">
+                        <a class="navbar-promo-link" href="#">
+                          <div class="media align-items-center">
+                            <!-- <img class="navbar-promo-icon" src="." alt="SVG"> -->
+                            <i class="fas fa-spell-check navbar-promo-icon nav-icon"></i>
+                            <div class="media-body">
+                              <span class="navbar-promo-title">English Assessment Test</span>
+                              <span class="navbar-promo-text">Help desk demo</span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- End Promo Item -->
+
+                      <!-- Promo Item -->
+                      <div class="navbar-promo-card navbar-promo-item">
+                        <a class="navbar-promo-link" href="#">
+                          <div class="media align-items-center">
+                            <img class="navbar-promo-icon" src="../../assets/img/eamcet.png" alt="SVG">
+                            <div class="media-body">
+                              <span class="navbar-promo-title">EAMCET</span>
+                              <span class="navbar-promo-text">Coming soon...</span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- End Promo Item -->
+                    </div>
+                  </div>
+
+                  <!-- Promo -->
+                  <div class="col-lg-4 navbar-promo d-none d-lg-block">
+                    <a class="d-block" href="#">
+                      <div class="position-relative">
+                        <img class="img-fluid rounded" src="../../assets/img/380x227/img1.jpg" alt="Image Description">
+                      </div>
+                    </a>
+                  </div>
+                  <!-- End Promo -->
+                </div>
+              </div>
+              <!-- End Assessments - Mega Menu -->
+            </li>
+            <!-- End Assessments -->
+
+            <!-- About -->
+            <li class="navbar-nav-item mr-2">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <!-- End About -->
+
+            <!-- Contact -->
+            <li class="navbar-nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+            <!-- End Contact -->
+            <!-- Sign Up -->
+            <li class="navbar-nav-item ml-lg-3 mt-3 mt-lg-0 d-none d-lg-block">
+              <a class="signup_btn" href="#">Request a Demo</a>
+            </li>
+            <!-- End Sign Up -->
+          </ul>
+        </div>
+        <!-- End Navigation -->
+      </nav>
+      <!-- End Nav -->
+    </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+  <!-- ========== MAIN ========== -->
+  <main id="content" role="main" class="pt-9">
+    <!-- Hero Section -->
+    <div class="container space-top-3 space-top-lg-3 space-bottom-1 space-bottom-lg-1">
+    <div class="row justify-content-lg-between mb-7">
+        <div class="col-md-6 col-lg-5">
+        <!-- Info -->
+        <div class="mb-5">
+            <h1>Hiring made easy</h1>
+            <p>Xplore provides you with the best tools to screen your candidates so you can make bettrer, faster and easier hiring decision.</p>
+        </div>
+
+        <div class="mb-3">
+            <a class="btn btn-danger btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3" href="#">Try for free</a>
+            <a class="btn btn-link text-danger mb-2 mb-sm-0" href="https://youtu.be/2b0Hb2_5f2Q">Watch Video<i class="fas fa-angle-right fa-sm ml-1"></i></a>
+        </div>
+
+        
+        <!-- End Info -->
+        </div>
+
+        <div class="col-md-6 d-none d-md-inline-block">
+        <!-- SVG Illustration -->
+        <figure class="w-90">
+            <img class="img-fluid" src="../../assets/xploreImages/undraw_Online_learning_re_qw08.svg" alt="Image Description">
+        </figure>
+        <!-- End SVG Illustration -->
+        </div>
+    </div>
+
+    
+    </div>
+    <!-- End Hero Section -->
+    <!-- Icon Blocks Section -->
+    <div class="container space-2">
+    <!-- Title -->
+    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+      
+        <h2 class="h2">Administer tests with ease</h2>
+    </div>
+    <!-- End Title -->
+
+    <div class="row">
+        <div class="col-md-4 mb-5 mb-md-0">
+        <!-- Icon Blocks -->
+        <div class="text-center px-lg-3">
+            <figure class="max-w-10rem mx-auto mb-4">
+            <img class="img-fluid" src="../../assets/xploreImages/contract.svg" alt="SVG">
+            </figure>
+            
+            <p>Test anyone, any where, any time</p>
+        </div>
+        <!-- End Icon Blocks -->
+        </div>
+
+        <div class="col-md-4 mb-5 mb-md-0">
+        <!-- Icon Blocks -->
+        <div class="text-center px-lg-3">
+            <figure class="max-w-10rem mx-auto mb-4">
+            <img class="img-fluid" src="../../assets/xploreImages/statistics.svg" alt="SVG">
+            </figure>
+           
+            <p>Tests for any position and industry</p>
+        </div>
+        <!-- End Icon Blocks -->
+        </div>
+
+        <div class="col-md-4">
+        <!-- Icon Blocks -->
+        <div class="text-center px-lg-3">
+            <figure class="max-w-10rem mx-auto mb-4">
+            <img class="img-fluid" src="../../assets/xploreImages/boss.svg" alt="SVG">
+            </figure>
+           
+            <p>Test as much as you need</p>
+        </div>
+        <!-- End Icon Blocks -->
+        </div>
+    </div>
+    </div>
+    <!-- End Icon Blocks Section -->
+    <!-- Article Section -->
+     <h2 class="mb-3 text-center">Employability tests for different skills and abilites </h2>
+    <div class="container space-1">     
+    <div class="row mx-n2" style="a:hover">
+        <div class="col-md-6 px-2 mb-3 ">
+        <!-- Icon Block -->
+        <a class="card card-frame h-90" href="#">
+            <div class="card-body">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/speedometer.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h3>Aptitude Test</h3>
+                <p class="text-body">Quantitative, Reasoning Verbal.</p>
+                </div>
+            </div>
+            </div>
+        </a>
+        <!-- End Icon Block -->
+        </div>
+
+        <div class="col-md-6 px-2 mb-3 ">
+        <!-- Icon Block -->
+        <a class="card card-frame h-90" href="#">
+            <div class="card-body">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/technical-support.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h3>Technical Test</h3>
+                <p class="text-body">Programming concepts, Syntax  errors, Logical errors.</p>
+                </div>
+            </div>
+            </div>
+        </a>
+        <!-- End Icon Block -->
+        </div>
+        <div class="col-md-6 px-2 mb-3 ">
+        <!-- Icon Block -->
+        <a class="card card-frame h-90" href="#">
+            <div class="card-body">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/html.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h3>Coding Test</h3>
+                <p class="text-body">C, Java, Python, Javascript.</p>
+                </div>
+            </div>
+            </div>
+        </a>
+        <!-- End Icon Block -->
+        </div>
+
+        <div class="col-md-6 px-2 mb-3 ">
+        <!-- Icon Block -->
+        <a class="card card-frame h-90" href="#">
+            <div class="card-body">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/teamwork.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h3>English proficiency Test</h3>
+                <p class="text-body">Listening, Speaking, Reading, Writing.</p>
+                </div>
+            </div>
+            </div>
+        </a>
+        <!-- End Icon Block -->
+        </div>
+        <div class="col-md-6 px-2 mb-3 ">
+        <!-- Icon Block -->
+        <a class="card card-frame h-90" href="#">
+            <div class="card-body">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/test.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h3>Psychometric Test</h3>
+                <p class="text-body">Big 5 metrics.</p>
+                </div>
+            </div>
+            </div>
+        </a>
+        <!-- End Icon Block -->
+        </div>
+
+        <div class="col-md-6 px-2 mb-3 ">
+        <!-- Icon Block -->
+        <a class="card card-frame h-90" href="#">
+            <div class="card-body">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/video-recording.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h3>Video Tests</h3>
+                <p class="text-body">Audio, Video recordings.</p>
+                </div>
+            </div>
+            </div>
+        </a>
+        <!-- End Icon Block -->
+        </div>
+        <div class="col-md-6 px-2 mb-3 ">
+        <!-- Icon Block -->
+        <a class="card card-frame h-90" href="#">
+            <div class="card-body">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/responsive.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h3>Descriptive Test</h3>
+                <p class="text-body">Writing, image uploading.</p>
+                </div>
+            </div>
+            </div>
+        </a>
+        <!-- End Icon Block -->
+        </div>
+
+        <div class="col-md-6 px-2 mb-3 ">
+        <!-- Icon Block -->
+        <a class="card card-frame h-90" href="#">
+            <div class="card-body">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/keyboard.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h3>Typing Test</h3>
+                <p class="text-body">WPM, Accuracy.</p>
+                </div>
+            </div>
+            </div>
+        </a>
+        <!-- End Icon Block -->
+        </div>
+        
+    </div>
+    </div>
+    <!-- End Article Section -->
+    <!-- Features Section -->
+     <h1 class="mb-2 text-center">Features that matters</h1>
+      <h2 class="my-3 text-center ">Platform features</h2>
+    <div class="container space-2">
+    <div class="w-lg-85 mx-lg-auto">
+        <div class="row">
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/simple.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Simple</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/internet.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Customizable</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100"></div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/protection.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Secure</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/monitoring.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Scalable</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/smartphone.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Mobile ready</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/wifi.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Works in low bandwidth</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100"></div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/power-strip.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Power failure ready</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/promote.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Brand promotion</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/terminal.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>White labelling</h4> 
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/call-center-agent.svg " alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Dedicated Support</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    </div>
+    <!-- End Features Section -->
+    <!-- Features Section -->
+  
+      <h2 class="my-3 text-center ">Security features</h2>
+    <div class="container space-2">
+    <div class="w-lg-85 mx-lg-auto">
+        <div class="row">
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/artificial-intelligence.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>AI proctoring</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/simulator.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Human proctoring</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100"></div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/warning.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Window swap detection</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/margin.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Cut, copy, paste disabled</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/agent.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Photo Id detection</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/personal-computer.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>System check</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100"></div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/email_secure.svg  " alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Email based restriction</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/pin-code.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Access code based restriction</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/terminal.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Auto termination contraint</h4> 
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/interface.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Manual termination contraint</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/browser.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Secure browser support</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/password.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Complete user logs</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/take-a-photo.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Webcam captures</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/videoconference.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Screen captures</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/interface.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Role band permisions</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/cloud-storage.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Cloud backup</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/chatting.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Chat with candidates</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/interface.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Broad cast messages</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!-- End Features Section -->
+       <!-- Features Section -->
+  
+      <h2 class="my-3 text-center ">Assessment features</h2>
+    <div class="container space-2">
+    <div class="w-lg-85 mx-lg-auto">
+        <div class="row">
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/question.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Question library</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/faq.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Numerous question paper</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100"></div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/question_marking.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Question/sectional marking</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/repeat.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Question/option shuffling</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/smartphone_cal.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>On screen calculator</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/data_compiler.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Code compiler</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100"></div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/questions_dynamic.svg  " alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Dynamic question</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/clipboards.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Dynamic set papers</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/news-reporter.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>comprehensive student reports</h4> 
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/presentation_report.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Question analysis</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/xls.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Excel download </h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/pdf.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>User response sheet pdf</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/test_correction.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Manual correction</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3 mb-md-5">
+            <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                <img class="img-fluid" src="../../assets/xploreImages/toggle.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                <h4>Auto enable\disable tests</h4>
+                <p class="text-body">Once your team signs up for a subscription plan. </p>
+                </div>
+            </div>
+        </div>
+       
+        </div>
+    </div>
+    </div>
+    <!-- End Features Section -->
+    <!-- Features Section -->
+    <div class="overflow-hidden bg-light">
+      <div class="container space-2">
+        <div class="row justify-content-lg-between align-items-lg-center">
+          <div class="col-lg-6 mb-9 mb-lg-0">
+            <!-- Mockups -->
+            <div class="position-relative max-w-40rem mx-auto">
+              <div class="device device-iphone-x w-85 mx-auto">
+                <img class="device-iphone-x-frame" src="../../assets/svg/components/iphone-x.svg" alt="Image Description">
+                <img class="device-iphone-x-screen" src="../../assets/img/407x867/img9.jpg" alt="Image Description">
+              </div>
+            </div>
+            <!-- End Mockups -->
+          </div>
+
+          <div class="col-lg-5">
+            <div class="mb-5">
+              <h2>How it Works</h2>
+            </div>
+
+            <!-- Icon Block -->
+            <ul class="step step-dashed mb-7">
+              <li class="step-item">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">1</span>
+                  <div class="step-content">
+                    <h3 class="h4">Create test</h3>
+                    <p><a href="../../documentation/index.html">Choose the most appropriate ready to go test or get a custom test created by our subject matters expects within 24 hours.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="step-item">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">2</span>
+                  <div class="step-content">
+                    <h3 class="h4">Invite candidates</h3>
+                    <p><a href="../../documentation/index.html">Invite candidates to complete the assessment via email or test links.</p>
+                  </div>
+                </div>
+              </li>
+             <li class="step-item">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">3</span>
+                  <div class="step-content">
+                    <h3 class="h4">Review scores</h3>
+                    <p><a href="../../documentation/index.html">Receive real time notifications and shortlisted qualified candidates.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="step-item mb-0">
+                <div class="step-content-wrapper">
+                  <span class="step-icon step-icon-xs step-icon-soft-primary">4</span>
+                  <div class="step-content">
+                    <h4>Hire</h4>
+                    <p class="mb-0">Interview the shortlisted candidates and close the role within a day.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- End Icon Block -->
+
+            <div class="mt-2">
+              <a class="btn btn-primary transition-3d-hover px-4" href="#">Request Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Features Section -->
+
+    <!-- CTA Section -->
+    <div class="container space-1 mb-2">
+      <div class="text-center py-6"
+        style="background: url(../../assets/svg/components/abstract-shapes-19.svg) center no-repeat;">
+        <h2>Get started for Free!</h2>
+        <p>Test drive our use-friendly assessment platform.</p>
+        <span class=" button d-block mt-5">
+          <a class=" corporates_btn2  transition-3d-hover" href="#">Start Now</a>
+        </span>
+      </div>
+    </div>
+    <!-- End CTA Section -->
+    
+  </main>
+  <!-- ========== END MAIN ========== -->
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="pt-4" style="background-color: #fff3e8;">
+    <div class="container"> 
+      <div class="space-top-1 space-bottom-1 space-bottom-lg-1">
+        <div class="row justify-content-lg-between">
+          <div class="col-lg-3 ml-lg-auto mb-2 mb-lg-0">
+            <!-- Logo -->
+            <div class="mb-4">
+              <a href="#" aria-label="Front">
+                <img class="brand" src="../../assets/xploreImages/xplore.png" alt="Logo">
+              </a>
+            </div>
+            <!-- End Logo -->
+
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-x-0 nav-dark flex-column">
+
+              <li class="nav-item">
+                <a class="nav-link media" href="javascript:;">
+                  <span class="media">
+                    <span class="fas fa-location-arrow mt-1 mr-2"></span>
+                    <span class="media-body">
+                      Xplore, 2nd floor, Oyester Uptown Building, Madhapur, Hi-Tech City, 500081.
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link media" href="tel:+91-000-000-0000">
+                  <span class="media">
+                    <span class="fas fa-phone-alt mt-1 mr-2"></span>
+                    <span class="media-body">
+                      1800-890-1324
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link media" href="#">
+                  <span class="media">
+                 <i class="fas fa-envelope mt-1 mr-2"></i>
+                    <span class="media-body">
+                      info@xplore.co.in
+                    </span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+
+          <div class="col-6 col-md-3 col-lg mb-5 mb-lg-0">
+            <h5 class="text-dark">Company</h5>
+
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-x-0 nav-dark flex-column">
+             
+              <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+
+          <div class="col-6 col-md-3 col-lg mb-5 mb-lg-0">
+            <h5 class="text-dark">Assessments</h5>
+
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-x-0 nav-dark flex-column">
+              <li class="nav-item"><a class="nav-link" href="#">Aptitude Test</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Technical Test</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Coding Test</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">English proficiency Test</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Psychometric Test</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Descriptive Test</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Video Test</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Typing Test</a></li>
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+
+          <div class="col-6 col-md-3 col-lg">
+            <h5 class="text-dark">Training</h5>
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-x-0 nav-dark flex-column">
+              <li class="nav-item"><a class="nav-link" href="#">Campus Recruitment Training</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Company specific Training</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Corporate Training</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Finishing School Program</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Language Training</a></li>
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+          <div class="col-6 col-md-3 col-lg">
+            <h5 class="text-dark">Products</h5>
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-x-0 nav-dark flex-column">
+              <li class="nav-item"><a class="nav-link" href="#">Hiring Assessments</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Job Board</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Online Examination </a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Xplore placement club</a></li>
+              
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+        </div>
+      </div>
+      <hr class="opacity-xs my-0" style="border: 1px solid black;">
+      <div class="space-1">
+        <div class="row align-items-md-center mb-5">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-dark nav-x-sm align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Privacy &amp; Policy</a>
+              </li>
+              <li class="nav-item opacity mx-3">&#47;</li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Terms & Services</a>
+              </li>
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+
+          <div class="col-md-6 text-md-right">
+            <ul class="list-inline mb-0">
+              <!-- Social Networks -->
+              <li class="list-inline-item">
+                <a class="btn btn-xs btn-icon btn-soft-dark" href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-xs btn-icon btn-soft-dark" href="#">
+                  <i class="fab fa-google"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-xs btn-icon btn-soft-dark" href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-xs btn-icon btn-soft-dark" href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <!-- End Social Networks -->
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="w-md-75 text-lg-center mx-lg-auto">
+          <p class="text-dark opacity-sm small">&copy; Xplore. 2020 Xplore. All rights reserved.</p>
+          <p class="text-dark opacity-sm small">When you visit or interact with our sites, services or tools, we or our
+            authorised service providers may use cookies for storing information to help provide you with a better,
+            faster and safer experience and for marketing purposes.</p>
+        </div>
+        <!-- End Copyright -->
+      </div>
+    </div>
+  </footer>
+  <!-- ========== END FOOTER ========== -->
+
+
+
+  <!-- Go to Top -->
+  <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
+       "offsetTop": 700,
+       "position": {`
+         "init": {
+           "right": 15
+         },
+         "show": {
+           "bottom": 15
+         },
+         "hide": {
+           "bottom": -15
+         }
+       }
+     }'>
+    <i class="fas fa-angle-up"></i>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../../assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="../../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="../../assets/vendor/hs-unfold/dist/hs-unfold.min.js"></script>
+  <script src="../../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+  <script src="../../assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+  <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+
+  <!-- JS Front -->
+  <script src="../../assets/js/hs.core.js"></script>
+  <script src="../../assets/js/hs.validation.js"></script>
+  <!-- JS Implementing Plugins -->
+<script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
+
+<!-- JS Front -->
+<script src="../../assets/js/hs.slick-carousel.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- JS Plugins Init. -->
+<script>
+  $(document).on('ready', function () {
+    // initialization of slick carousel
+    $('.js-slick-carousel').each(function() {
+      var slickCarousel = $.HSCore.components.HSSlickCarousel.init($(this));
+    });
+  });
+</script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      var header = new HSHeader($('#header')).init();
+
+      // initialization of mega menu
+      var megaMenu = new HSMegaMenu($('.js-mega-menu'), {
+        desktop: {
+          position: 'left'
+        }
+      }).init();
+
+      // initialization of unfold
+      var unfold = new HSUnfold('.js-hs-unfold-invoker').init();
+
+      // initialization of show animations
+      $('.js-animation-link').each(function () {
+        var showAnimation = new HSShowAnimation($(this)).init();
+      });
+
+      // initialization of form validation
+      $('.js-validate').each(function () {
+        $.HSCore.components.HSValidation.init($(this), {
+          rules: {
+            confirmPassword: {
+              equalTo: '#signupPassword'
+            }
+          }
+        });
+      });
+
+      // initialization of go to
+      $('.js-go-to').each(function () {
+        var goTo = new HSGoTo($(this)).init();
+      });
+    });
+  </script>
+     <script>
+       AOS.init();
+    </script>
+
+  <!-- IE Support -->
+  <script>
+    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="../../assets/vendor/polifills.js"><\/script>');
+  </script>
+</body>
+
+</html>
