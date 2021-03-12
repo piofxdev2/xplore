@@ -30,20 +30,20 @@
 </head>
 
 <body>
-  <!-- ========== HEADER ========== -->
+   <!-- ========== HEADER ========== -->
   <header id="header" class="header nav-shadow bg-light  position-fixed" >
 
     <div id="logoAndNav" class="container">
       <!-- Nav -->
       <nav class="js-mega-menu navbar navbar-expand-lg d-flex justify-content-between">
         <!-- Logo -->
-        <a href="/" aria-label="Front">
+        <a href="index.html" aria-label="Front">
           <img src="../../assets/xploreImages/xplore.png" width="100" alt="Logo">
         </a>
         <!-- End Logo -->
 
         <div>
-          <a class="signup_btn ml-3 d-lg-none" href="#">Sign Up</a>
+          <a class="signup_btn ml-3 d-lg-none" href="#">Request a Demo</a>
 
           <!-- Responsive Toggle Button -->
           <button type="button" class="navbar-toggler btn btn-icon btn-ghost-dark" aria-label="Toggle navigation"
@@ -67,15 +67,30 @@
         <!-- Navigation -->
         <div id="navBar" class="collapse navbar-collapse">
           <ul class="navbar-nav">
-            <li class="navbar-nav-item mr-2">
-              <a href="./index.html" class="nav-link">Products</a>
+            <!-- products -->
+            <li class="hs-has-sub-menu navbar-nav-item">
+              <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;"
+                aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Products</a>
+
+              <!-- Products - Submenu -->
+              <div id="pagesSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu"
+                style="min-width: 230px;">
+                <a href="hiring.html" class="dropdown-item"><i class="fas fa-building nav-icon"></i>Hiring Assessment</a>
+                <a href="jobBoard.html" class="dropdown-item"><i class="fas fa-school nav-icon"></i>Job Board</a>
+                <a href="./colleges.html" class="dropdown-item"><i class="fas fa-graduation-cap nav-icon"></i>Proctored Online Examination</a>
+                <a href="xpc.html" class="dropdown-item"><i class="fas fa-university nav-icon"></i>Xplore placement club</a>
+              </div>
+              <!-- End Products - Submenu -->
+
             </li>
-            <!-- Services -->
+            <!-- End Products -->
+
+            <!-- trainings -->
             <li class="hs-has-sub-menu navbar-nav-item">
               <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;"
                 aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Training</a>
 
-              <!-- Services - Submenu -->
+              <!-- trainings - Submenu -->
               <div id="pagesSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu"
                 style="min-width: 230px;">
                 <a href="./corporates.html" class="dropdown-item"><i class="fas fa-building nav-icon"></i> For
@@ -85,113 +100,54 @@
                   Colleges</a>
                 <a href="#" class="dropdown-item"><i class="fas fa-university nav-icon"></i>For Institutes</a>
               </div>
-              <!-- End Services - Submenu -->
+              <!-- End trainings - Submenu -->
 
             </li>
-            <!-- End Services -->
+            <!-- End trainings -->
 
-            <!-- Assessments -->
-            <li class="hs-has-mega-menu navbar-nav-item" data-hs-mega-menu-item-options='{
-                  "desktop": {
-                    "position": "right",
-                    "maxWidth": "900px"
-                  }
-                }'>
-              <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;"
-                aria-haspopup="true" aria-expanded="false">Events</a>
+            <!-- events -->
+            <li class="hs-has-sub-menu navbar-nav-item">
+              <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;"
+                aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Events</a>
 
-              <!-- Assessments - Mega Menu -->
-              <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="demosMegaMenu">
-                <div class="row no-gutters">
-                  <div class="col-lg-8">
-                    <div class="navbar-promo-card-deck">
-                      <!-- Promo Item -->
-                      <div class="navbar-promo-card navbar-promo-item">
-                        <a class="navbar-promo-link" href="oet.html">
-                          <div class="media align-items-center">
-                            <img class="navbar-promo-icon" src="../../assets/img/oet.png">
-                            <div class="media-body">
-                              <span class="navbar-promo-title">OET</span>
-                              <span class="navbar-promo-text">Learn On-demand demo</span>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                      <!-- End Promo Item -->
-
-                      <!-- Promo Item -->
-                      <div class="navbar-promo-card navbar-promo-item">
-                        <a class="navbar-promo-link" href="det.html">
-                          <div class="media align-items-center">
-                            <img class="navbar-promo-icon" src="../../assets/img/det.png" alt="SVG">
-                            <div class="media-body">
-                              <span class="navbar-promo-title">DET</span>
-                              <span class="navbar-promo-text">Marketplace app demo</span>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                      <!-- End Promo Item -->
-                    </div>
-
-                    <div class="navbar-promo-card-deck">
-                      <!-- Promo Item -->
-                      <div class="navbar-promo-card navbar-promo-item">
-                        <a class="navbar-promo-link" href="#">
-                          <div class="media align-items-center">
-                            <!-- <img class="navbar-promo-icon" src="." alt="SVG"> -->
-                            <i class="fas fa-spell-check navbar-promo-icon nav-icon"></i>
-                            <div class="media-body">
-                              <span class="navbar-promo-title">English Assessment Test</span>
-                              <span class="navbar-promo-text">Help desk demo</span>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                      <!-- End Promo Item -->
-
-                      <!-- Promo Item -->
-                      <div class="navbar-promo-card navbar-promo-item">
-                        <a class="navbar-promo-link" href="#">
-                          <div class="media align-items-center">
-                            <img class="navbar-promo-icon" src="../../assets/img/eamcet.png" alt="SVG">
-                            <div class="media-body">
-                              <span class="navbar-promo-title">EAMCET</span>
-                              <span class="navbar-promo-text">Coming soon...</span>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                      <!-- End Promo Item -->
-                    </div>
-                  </div>
-
-                  <!-- Promo -->
-                  <div class="col-lg-4 navbar-promo d-none d-lg-block">
-                    <a class="d-block" href="#">
-                      <div class="position-relative">
-                        <img class="img-fluid rounded" src="../../assets/img/380x227/img1.jpg" alt="Image Description">
-                      </div>
-                    </a>
-                  </div>
-                  <!-- End Promo -->
-                </div>
+              <!-- events - Submenu -->
+              <div id="pagesSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu"
+                style="min-width: 230px;">
+                <a href="./corporates.html" class="dropdown-item"><i class="fas fa-building nav-icon"></i> Virtual</a>
+                <a href="./schools.html" class="dropdown-item"><i class="fas fa-school nav-icon"></i>AP Eamcet mock Test</a>
               </div>
-              <!-- End Assessments - Mega Menu -->
-            </li>
-            <!-- End Assessments -->
+              <!-- End events - Submenu -->
 
-            <!-- About -->
-            <li class="navbar-nav-item mr-2">
-              <a class="nav-link" href="#">Resources</a>
             </li>
-            <!-- End About -->
+            <!-- End events -->
+
+           <!-- resources -->
+            <li class="hs-has-sub-menu navbar-nav-item">
+              <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;"
+                aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Resources</a>
+
+              <!-- resources - Submenu -->
+              <div id="pagesSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu"
+                style="min-width: 230px;">
+                <a href="./corporates.html" class="dropdown-item"><i class="fas fa-building nav-icon"></i> Videos</a>
+                <a href="./schools.html" class="dropdown-item"><i class="fas fa-school nav-icon"></i>Testimonials</a>
+
+                <a href="#" class="dropdown-item"><i class="fas fa-university nav-icon"></i>Blog</a>
+              </div>
+              <!-- End resources - Submenu -->
+
+            </li>
+            <!-- End resources -->
 
             <!-- Contact -->
             <li class="navbar-nav-item">
-              <a href="#" class="nav-link">Contact Us</a>
+              <a href="#" class="nav-link">Login</a>
+            </li>
+            <li class="navbar-nav-item">
+              <a href="#" class="nav-link">Register</a>
             </li>
             <!-- End Contact -->
+
             <!-- Sign Up -->
             <li class="navbar-nav-item ml-lg-3 mt-3 mt-lg-0 d-none d-lg-block">
               <a class="signup_btn" href="#">Request a Demo</a>
@@ -588,7 +544,7 @@
   </main>
   <!-- ========== END MAIN ========== -->
 
-  <!-- ========== FOOTER ========== -->
+ <!-- ========== FOOTER ========== -->
   <footer class="pt-4" style="background-color: #fff3e8;">
     <div class="container"> 
       <div class="space-top-1 space-bottom-1 space-bottom-lg-1">
@@ -596,7 +552,7 @@
           <div class="col-lg-3 ml-lg-auto mb-2 mb-lg-0">
             <!-- Logo -->
             <div class="mb-4">
-              <a href="#" aria-label="Front">
+              <a href="index.html" aria-label="Front">
                 <img class="brand" src="../../assets/xploreImages/xplore.png" alt="Logo">
               </a>
             </div>
@@ -687,17 +643,17 @@
             <h5 class="text-dark">Products</h5>
             <!-- Nav Link -->
             <ul class="nav nav-sm nav-x-0 nav-dark flex-column">
-              <li class="nav-item"><a class="nav-link" href="#">Hiring Assessments</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Job Board</a></li>
+              <li class="nav-item"><a class="nav-link" href="hiring.html">Hiring Assessments</a></li>
+              <li class="nav-item"><a class="nav-link" href="jobBoard.html">Job Board</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Online Examination </a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Xplore placement club</a></li>
+              <li class="nav-item"><a class="nav-link" href="xpc.html">Xplore placement club</a></li>
               
             </ul>
             <!-- End Nav Link -->
           </div>
         </div>
       </div>
-      <hr class="opacity-xs my-0" style=" background-color: #f38117; height: 0.5px;">
+      <hr class="opacity-xs my-0" style=" background-color: #f38117; height: 0.5px;"> 
       <div class="space-1">
         <div class="row align-items-md-center mb-5">
           <div class="col-md-6 mb-4 mb-md-0">
@@ -745,17 +701,13 @@
         <!-- Copyright -->
         <div class="w-md-75 text-lg-center mx-lg-auto">
           <p class="text-dark opacity-sm small">&copy; Xplore. 2020 Xplore. All rights reserved.</p>
-          <p class="text-dark opacity-sm small">When you visit or interact with our sites, services or tools, we or our
-            authorised service providers may use cookies for storing information to help provide you with a better,
-            faster and safer experience and for marketing purposes.</p>
+          
         </div>
         <!-- End Copyright -->
       </div>
     </div>
   </footer>
   <!-- ========== END FOOTER ========== -->
-
-
 
   <!-- Go to Top -->
   <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
