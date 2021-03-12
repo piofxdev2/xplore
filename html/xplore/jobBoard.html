@@ -27,11 +27,22 @@
   <link rel="stylesheet" href="../../assets/css/style.css">
   <link rel="stylesheet" href="../../assets/css/changes.css">
   <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+  <style>
+    br.responsive {
+      display: inline; 
+    }
+
+    @media (min-width: 448px) { 
+      br.responsive {
+        display: none; 
+      }
+    }
+</style>
 </head>
 
 <body>
   <!-- ========== HEADER ========== -->
-  <header id="header" class="header nav-shadow bg-light  position-fixed" >
+  <header id="header" class="header nav-shadow  position-fixed" style="background-color: 	#fff3e8;">
 
     <div id="logoAndNav" class="container">
       <!-- Nav -->
@@ -214,8 +225,8 @@
           <div class="col-lg-5 mb-7 mb-lg-0">
             <div class="mb-4">
               <h1>Find the Best candidates in minutes </h1>
-              <p class="h3 ">Post a job for FREE</p>
-              <p class="font-size-2 pt-2">Leverage the network of 400+ engineering colleges and 1.5 lakh validated fresher profiles.</p>
+              <span class="badge text-white px-4 py-1 font-size-2" style="background-color: #e24d4b;">Post a job for FREE</span>
+              <p class="pt-2" style="font-size: 21px;">Leverage the network of 400+ engineering colleges and 1.5 lakh validated fresher profiles.</p>
             </div>
 
           </div>
@@ -551,7 +562,7 @@
     <div class="container space-1 mb-2">
       <div class="text-center py-6"
         style="background: url(../../assets/svg/components/abstract-shapes-19.svg) center no-repeat;">
-        <h2 style="z-index: 10;">Hire the best. Faster.Easier</h2>
+        <h2 style="z-index: 10;">Hire the best.<br class="responsive" /> Faster.Easier</h2>
         <!-- <p>Test drive our use-friendly assessment platform.</p> -->
         <span class=" button d-block mt-5">
           <a class=" corporates_btn2  transition-3d-hover" href="#">Try for free</a>
