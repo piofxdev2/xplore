@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="../../assets/css/style.css">
   <link rel="stylesheet" href="../../assets/css/changes.css">
   <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="../../assets/vendor/leaflet/dist/leaflet.css">
   <style>
     .hero_btn button{
     border: 1.5px solid #e24d4b; color:#e24d4b;
@@ -183,190 +184,126 @@
   <!-- ========== END HEADER ========== -->
   <!-- ========== MAIN ========== -->
   <main id="content" role="main" class="pt-md-8">
-        <div id="app" >
-        <div class="mt-4 space-2  bg-white">
-            <div class="wrapper">  
-            <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-8">
-                    <h2 class="mb-4 mb-md-2">
-                    <i class="fab fa-youtube " style="color: #e24d4b;"></i> &nbsp;Courses
-                   </h2>
-
-                </div>
-                <div class="col-12 col-md-4">
-
-                    <form class="form" method="GET" action="https://xplore.co.in/course">
-                        <div class="input-group ">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text"><i class="fas fa-search"></i></div>
-                        </div>
-                        <input class="form-control form-control-sm" id="search" name="item" autocomplete="off" type="search" placeholder="Search" aria-label="Search" 
-                        value="">
-                        </div>
-                    </form>
-
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-
-    </div>       
-    </div>
-  </div>
-  <!-- Services Section -->
-<div class="container">
+   <!-- Contact Form Section -->
+<div class="container space-2">
   <div class="row">
-    <div class="col-md-6 mb-3">
-      <!-- Card -->
-      <div class="rounded bg-light text-dark h-100 overflow-hidden p-5">
-        <div class="w-100 pr-2">
-          <h2 class="text-dark">Quantitative Aptitude </h2>
-          <p class="text-dark">Quantitative Aptitude is the most important requisite for clearing any competitive exam. We have designed this course to help you master the core concepts of quant with ease.</p>
-          <a class="btn btn-sm btn-soft-dark transition-3d-hover" href="https://xplore.co.in/course/quantitative-aptitude">View Course <i class="fas fa-angle-right ml-1"></i></a>
-        </div>
-       
+    <div class="col-lg-6 mb-9 mb-lg-0">
+      <div class="mb-5">
+        <h1 class="display-4">Get in touch</h1>
+        <p>We'd love to talk about how we can help you.</p>
       </div>
-      <!-- End Card -->
+
+      <!-- Leaflet -->
+      <div id="mapExample2" class="min-h-300rem mb-5"
+           data-hs-leaflet-options='{
+             "map": {
+               "scrollWheelZoom": false,
+               "coords": [37.4040344, -122.0289704]
+             },
+             "marker": [
+               {
+                 "coords": [37.4040344, -122.0289704],
+                 "icon": {
+                   "iconUrl": "../../assets/svg/components/map-pin.svg",
+                   "iconSize": [50, 45]
+                 },
+                 "popup": {
+                   "text": "Test text!"
+                 }
+               }
+             ]
+            }'></div>
+      <!-- End Leaflet -->
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="mb-3">
+            <span class="d-block h5 mb-1">Call us:</span>
+            <span class="d-block text-body font-size-1">1800-890-1324</span>
+          </div>
+
+          <div class="mb-3">
+            <span class="d-block h5 mb-1">Email us:</span>
+            <span class="d-block text-body font-size-1"> info@xplore.co.in</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="mb-3">
+            <span class="d-block h5 mb-1">Address:</span>
+            <span class="d-block text-body font-size-1">  Xplore, 2nd floor, Oyester Uptown Building, Madhapur, Hi-Tech City, 500081.</span>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="col-md-6 mb-3">
-      <!-- Card -->
-      <div class="rounded bg-light text-dark h-100 overflow-hidden p-5">
-        <div class="w-100 pr-2">
-          <h2 class="text-dark">Logical Reasoning </h2>
-          <p class="text-dark">This course dramatically improves your chances of passing logical reasoning with top scores. The course includes detailed explanation of important concepts, practice questions, tips and tricks.</p>
-          <a class="btn btn-sm btn-soft-dark transition-3d-hover" href="https://xplore.co.in/course/logical-reasoning">View Course  <i class="fas fa-angle-right ml-1"></i></a>
-        </div>
-        
-      </div>
-      <!-- End Card -->
-    </div>
-     <div class="col-md-6 mb-3">
-      <!-- Card -->
-      <div class="rounded bg-light text-dark h-100 overflow-hidden p-5">
-        <div class="w-100 pr-2">
-          <h2 class="text-dark">Mental Ability  </h2>
-          <p class="text-dark">General mental ability is one of the prime topics of most of the entrance examinations. The mental ability problems, test the reasoning & interpretation skills of candidates.</p>
-          <a class="btn btn-sm btn-soft-dark transition-3d-hover" href="https://xplore.co.in/course/mental-ability">View Course <i class="fas fa-angle-right ml-1"></i></a>
-        </div>
-       
-      </div>
-      <!-- End Card -->
-    </div>
+    <div class="col-lg-6">
+      <div class="ml-lg-5">
+        <!-- Form -->
+        <form class="js-validate card shadow-lg mb-4">
+          <div class="card-header border-0 bg-light text-center py-4 px-4 px-md-6">
+            <h2 class="h4 mb-0">General Enquiries</h2>
+          </div>
 
-    <div class="col-md-6 mb-3">
-      <!-- Card -->
-      <div class="rounded bg-light text-dark h-100 overflow-hidden p-5">
-        <div class="w-100 pr-2">
-          <h2 class="text-dark">Verbal Ability  </h2>
-          <p class="text-dark">English Language is one of the less time consuming and a scoring subject in every competitive exam. This course covers complete syllabus for general english along with numerous practice questions.</p>
-          <a class="btn btn-sm btn-soft-dark transition-3d-hover" href="https://xplore.co.in/course/verbal-ability-1">View Course  <i class="fas fa-angle-right ml-1"></i></a>
-        </div>
-        
-      </div>
-      <!-- End Card -->
-    </div>
-    <div class="col-md-6 mb-3">
-      <!-- Card -->
-      <div class="rounded bg-light text-dark h-100 overflow-hidden p-5">
-        <div class="w-100 pr-2">
-          <h2 class="text-dark">Interview Skills  </h2>
-          <p class="text-dark">So you’ve got an interview lined up? are you ready for it? check out our video resource which highlights important techniques that will help you nail your next interview.</p>
-          <a class="btn btn-sm btn-soft-dark transition-3d-hover" href="https://xplore.co.in/course/interview-skills">View Course <i class="fas fa-angle-right ml-1"></i></a>
-        </div>
-       
-      </div>
-      <!-- End Card -->
-    </div>
+          <div class="card-body p-4 p-md-6">
+            <div class="row">
+              <div class="col-sm-6">
+                <!-- Form Group -->
+                <div class="js-form-message form-group">
+                  <label for="firstNameExample1" class="input-label">First name</label>
+                  <input type="text" class="form-control" name="firstNameExample1" id="firstNameExample1" placeholder="First name" aria-label="Nataly" required
+                         data-msg="Please enter first your name">
+                </div>
+                <!-- End Form Group -->
+              </div>
 
-    <div class="col-md-6 mb-3">
-      <!-- Card -->
-      <div class="rounded bg-light text-dark h-100 overflow-hidden p-5">
-        <div class="w-100 pr-2">
-          <h2 class="text-dark">Coding for Interviews </h2>
-          <p class="text-dark">If you are aiming for top companies, then coding is a must. This video series covers concept explanation as well as detailed live code for the most important programs asked in coding interviews.</p>
-          <a class="btn btn-sm btn-soft-dark transition-3d-hover" href="https://xplore.co.in/course/coding-for-interviews ">View Course  <i class="fas fa-angle-right ml-1"></i></a>
-        </div>
-        
-      </div>
-      <!-- End Card -->
-    </div>
-     <div class="col-md-6 mb-3">
-      <!-- Card -->
-      <div class="rounded bg-light text-dark h-100 overflow-hidden p-5">
-        <div class="w-100 pr-2">
-          <h2 class="text-dark">Programming Concepts for Interviews </h2>
-          <p class="text-dark">Refresh your programming concepts before you attend any technical interview. This comprehensive course on programming covers c, data structure & algorithms in depth.</p>
-          <a class="btn btn-sm btn-soft-dark transition-3d-hover" href="https://xplore.co.in/course/programming-concepts-interviews">View Course <i class="fas fa-angle-right ml-1"></i></a>
-        </div>
-       
-      </div>
-      <!-- End Card -->
-    </div>
+              <div class="col-sm-6">
+                <!-- Form Group -->
+                <div class="js-form-message form-group">
+                  <label for="lastNameExample1" class="input-label">Last name</label>
+                  <input type="text" class="form-control" name="lastNameExample1" id="lastNameExample1" placeholder="Last name" aria-label="Gaga" required
+                         data-msg="Please enter last your name">
+                </div>
+                <!-- End Form Group -->
+              </div>
 
-    <div class="col-md-6 mb-3">
-      <!-- Card -->
-      <div class="rounded bg-light text-dark h-100 overflow-hidden p-5">
-        <div class="w-100 pr-2">
-          <h2 class="text-dark">Coding Bootcamp - Python Online Training </h2>
-          <p class="text-dark">This course consists of day-wise lectures of online sessions for Python Internship.</p>
-          <a class="btn btn-sm btn-soft-dark transition-3d-hover" href="https://xplore.co.in/course/cbpython ">View Course  <i class="fas fa-angle-right ml-1"></i></a>
+              <div class="col-sm-12">
+                <!-- Form Group -->
+                <div class="js-form-message form-group">
+                  <label for="emailAddressExample1" class="input-label">Email address</label>
+                  <input type="email" class="form-control" name="emailAddressExample1" id="emailAddressExample1" placeholder="nayagaga@pixeel.com" aria-label="alex@pixeel.com" required
+                         data-msg="Please enter a valid email address">
+                </div>
+                <!-- End Form Group -->
+              </div>
+
+              <div class="col-sm-12">
+                <!-- Form Group -->
+                <div class="js-form-message form-group">
+                  <label for="message" class="input-label">Message</label>
+                  <div class="input-group">
+                    <textarea class="form-control" rows="4" name="message" id="message" placeholder="Hi there, I would like to ..." aria-label="Hi there, I would like to ..." required
+                              data-msg="Please enter a reason."></textarea>
+                  </div>
+                </div>
+                <!-- End Form Group -->
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-block  transition-3d-hover" style="background-color: #e24d4b; color: #fff;">Submit</button>
+          </div>
+        </form>
+        <!-- End Form -->
+
+        <div class="text-center">
+          <p class="small">We'll get back to you in 1-2 business days.</p>
         </div>
       </div>
-      <!-- End Card -->
-    </div>
-    <div class="col-md-6 mb-3">
-      <!-- Card -->
-      <div class="rounded bg-light text-dark h-100 overflow-hidden p-5">
-        <div class="w-100 pr-2">
-          <h2 class="text-dark">CSI Machine Learning Internship Training </h2>
-          <p class="text-dark">This course consists of day-wise lectures of online sessions for Machine Learning Internship Training.</p>
-          <a class="btn btn-sm btn-soft-dark transition-3d-hover" href="https://xplore.co.in/course/csi-machine-learning">View Course  <i class="fas fa-angle-right ml-1"></i></a>
-        </div>
-      </div>
-      <!-- End Card -->
-    </div>
-    <div class="col-md-6 mb-3">
-      <!-- Card -->
-      <div class="rounded bg-light text-dark h-100 overflow-hidden p-5">
-        <div class="w-100 pr-2">
-          <h2 class="text-dark">Interview -Prep </h2>
-          <p class="text-dark">This Interview Prep  course covers the essential lectures and practice tests for cracking the company interviews.</p>
-          <a class="btn btn-sm btn-soft-dark transition-3d-hover" href="https://xplore.co.in/course/aptitude-course">View Course  <i class="fas fa-angle-right ml-1"></i></a>
-        </div>
-      </div>
-      <!-- End Card -->
-    </div>
-    <div class="col-md-6 mb-3">
-      <!-- Card -->
-      <div class="rounded bg-light text-dark h-100 overflow-hidden p-5">
-        <div class="w-100 pr-2">
-          <h2 class="text-dark">SMEC Infosys Training </h2>
-          <p class="text-dark">Infosys Company-specific training designed for St Martins.</p>
-          <a class="btn btn-sm btn-soft-dark transition-3d-hover" href="https://xplore.co.in/course/smec-infosys">View Course  <i class="fas fa-angle-right ml-1"></i></a>
-        </div>
-      </div>
-      <!-- End Card -->
     </div>
   </div>
 </div>
-<!-- End Services Section -->
-   
-    <!-- CTA Section -->
-    <div class="container space-bottom-1 mb-2">
-      <div class="text-center py-6"
-        style="background: url(../../assets/svg/components/abstract-shapes-19.svg) center no-repeat;">
-        <h2>Find the right learning path for you</h2>
-        <p>Answer a few questions and match your goals to our programs.</p>
-        <span class=" button d-block mt-5">
-          <a class=" corporates_btn2  transition-3d-hover" href="#">Start Now</a>
-        </span>
-      </div>
-    </div>
-    <!-- End CTA Section -->
-    
+<!-- End Contact Form Section -->
+ 
   </main>
   <!-- ========== END MAIN ========== -->
 
@@ -596,11 +533,29 @@
 <script src="../../assets/vendor/appear.js"></script>
 
 <!-- JS Plugins Init. -->
+<!-- JS Implementing Plugins -->
+<script src="../../assets/vendor/leaflet/dist/leaflet.js"></script>
+<script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+
+<!-- JS Front -->
+<script src="../../assets/js/hs.leaflet.js"></script>
+<script src="../../assets/js/hs.validation.js"></script>
+
+<!-- JS Plugins Init. -->
 <script>
   $(document).on('ready', function () {
-    // initialization of counter
-    $('.js-counter').each(function() {
-      var counter = new HSCounter($(this)).init();
+    // initialization of leaflet
+    $('#mapExample2').each(function () {
+      var leaflet = $.HSCore.components.HSLeaflet.init($(this)[0]);
+
+      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+        id: 'mapbox/light-v9'
+      }).addTo(leaflet);
+    });
+
+    // initialization of form validation
+    $('.js-validate').each(function () {
+      var validation = $.HSCore.components.HSValidation.init($(this));
     });
   });
 </script>
